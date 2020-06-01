@@ -18,9 +18,9 @@ public class Player : MonoBehaviour {
   public float maxBounceTime = 2f;
   public float maxHurtTime = 3f;
   public ControlBounds controlBounds;
-  private Camera mainCamera;
-  public Vector3 target;
   public float bounceTimer, hurtTimer;
+  private Vector3 target;
+  private Camera mainCamera;
   private new Rigidbody2D playerRigidbody;
   private Animator animator;
 
@@ -50,8 +50,10 @@ public class Player : MonoBehaviour {
   }
 
   public void IncrementBounceTimer() {
-    bounceTimer += Time.deltaTime;
-    if (bounceTimer > maxBounceTime) bounceTimer = maxBounceTime;
+    if (bounceTimer < maxBounceTime) {
+      bounceTimer += Time.deltaTime;
+      if (bounceTimer > maxBounceTime) bounceTimer = maxBounceTime;
+    }
   }
   
   public void DecrementBounce() {
