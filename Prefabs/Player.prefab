@@ -11,7 +11,15 @@ GameObject:
   - component: {fileID: 7567100911175128999}
   - component: {fileID: 9103869487928074211}
   - component: {fileID: 8020518136713498763}
+<<<<<<< HEAD
   - component: {fileID: 1491037373995999347}
+=======
+<<<<<<< HEAD
+  - component: {fileID: 1820774760395812004}
+=======
+  - component: {fileID: 1491037373995999347}
+>>>>>>> Add UnityCore files
+>>>>>>> UpdateProject
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -28,7 +36,15 @@ Transform:
   m_GameObject: {fileID: 2030622907753257415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 2, y: 2, z: 2}
+=======
+<<<<<<< HEAD
+  m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalScale: {x: 2, y: 2, z: 2}
+>>>>>>> Add UnityCore files
+>>>>>>> UpdateProject
   m_Children:
   - {fileID: 2938208218266747469}
   - {fileID: 1874592427444556249}
@@ -82,18 +98,52 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!114 &1491037373995999347
+=======
+<<<<<<< HEAD
+--- !u!114 &1820774760395812004
+=======
+--- !u!114 &1491037373995999347
+>>>>>>> Add UnityCore files
+>>>>>>> UpdateProject
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030622907753257415}
+<<<<<<< HEAD
   m_Enabled: 1
+=======
+<<<<<<< HEAD
+  m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Add UnityCore files
+>>>>>>> UpdateProject
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42763970dcecd45e4bad6d2686877872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  playerState: 0
+  playerHealth: 0
+  speed: 125
+  tilt: 0
+  playerLives: 5000
+  hitVelocity: {x: 0, y: 0, z: 0}
+  maxHitTime: 2
+  maxHurtTime: 0.4
+  controlBounds:
+    xMin: -7
+    xMax: 60
+    yMin: -18
+    yMax: 18
+=======
+>>>>>>> UpdateProject
   speed: 150
   lives: 90
   bounceVelocity: {x: 0, y: 0, z: 0}
@@ -105,6 +155,10 @@ MonoBehaviour:
     xMax: 50
     yMin: -9
     yMax: 9
+<<<<<<< HEAD
+=======
+>>>>>>> Add UnityCore files
+>>>>>>> UpdateProject
 --- !u!1001 &1123519685266213698
 PrefabInstance:
   m_ObjectHideFlags: 0
