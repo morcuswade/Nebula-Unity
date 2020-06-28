@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 7567100911175128999}
   - component: {fileID: 9103869487928074211}
   - component: {fileID: 8020518136713498763}
+<<<<<<< HEAD
   - component: {fileID: 1820774760395812004}
+=======
+  - component: {fileID: 1491037373995999347}
+>>>>>>> Add UnityCore files
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -28,7 +32,11 @@ Transform:
   m_GameObject: {fileID: 2030622907753257415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 1, y: 1, z: 1}
+=======
+  m_LocalScale: {x: 2, y: 2, z: 2}
+>>>>>>> Add UnityCore files
   m_Children:
   - {fileID: 2938208218266747469}
   - {fileID: 1874592427444556249}
@@ -82,18 +90,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!114 &1820774760395812004
+=======
+--- !u!114 &1491037373995999347
+>>>>>>> Add UnityCore files
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030622907753257415}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Add UnityCore files
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42763970dcecd45e4bad6d2686877872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   playerState: 0
   playerHealth: 0
   speed: 125
@@ -107,6 +124,19 @@ MonoBehaviour:
     xMax: 60
     yMin: -18
     yMax: 18
+=======
+  speed: 150
+  lives: 90
+  bounceVelocity: {x: 0, y: 0, z: 0}
+  playerVelocity: {x: 0, y: 0, z: 0}
+  maxBounceTime: 2
+  maxHurtTime: 3
+  controlBounds:
+    xMin: -2
+    xMax: 50
+    yMin: -9
+    yMax: 9
+>>>>>>> Add UnityCore files
 --- !u!1001 &1123519685266213698
 PrefabInstance:
   m_ObjectHideFlags: 0

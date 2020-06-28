@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 05fbdb4553b7c4bce8c1268962afba50
+=======
+guid: 34cc5314ecada455ab4245b359b6a23e
+>>>>>>> Add UnityCore files
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
